@@ -1,0 +1,232 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: black;
+  color: rgba(230, 94, 40, 1);
+  max-width: 400%;
+  overflow-y: scroll;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.marqueee {
+  position: fixed;
+  left: 0;
+  top: 0;
+  font-size: 60px;
+  white-space: nowrap;
+  will-change: transform;
+  animation: movementMarquee linear 16s infinite;
+}
+.marqueee div:last-child {
+  position: absolute;
+  left: 100%;
+  top: 0;
+}
+
+@keyframes movementMarquee {
+  from {
+    transform: translate(0%, 0);
+  }
+  to {
+    transform: translate(-100%, 0);
+  }
+}
+
+#banner1 {
+  color: rgba(230, 94, 40, 1);
+  font-family: "Built Titling";
+  direction: left;
+  font-style: normal;
+  font-size: 65px;
+  letter-spacing: 2px;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+.button_shop {
+  float: left;
+  visibility: show;
+  object-fit: cover;
+  position: fixed;
+  width: 285px;
+  height: 121px;
+  left: 38px;
+  top: 50px;
+}
+
+.image-container {
+  width: 649px;
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.35);
+  font-family: "Neue Haas Grotesk", Icons;
+  font-style: normal;
+  margin-left: 90px;
+  top: 25px;
+}
+.image-container img {
+  width: 100%;
+  height: auto;
+  margin-top: 32px;
+  margin-bottom: 59px;
+}
+/* .SSW1 {
+  width: 649px;
+  height: 924px;
+  left: 90px;
+  top: 25px;
+  position: relative;
+} */
+
+.img {
+  position: relative;
+  width: 679px;
+  height: 966px;
+  float: none;
+  top: 51px;
+}
+
+.sidebar {
+  position: fixed;
+  bottom: 114px;
+  left: 40px;
+}
+
+.img-collection {
+  height: 43px;
+  margin-bottom: 5px;
+}
+
+.logo_name {
+  object-fit: cover;
+  position: fixed;
+  width: 920px;
+  height: 285px;
+  left: 829px;
+  top: 60px;
+}
+
+.logo_animated {
+  object-fit: cover;
+  width: 536px;
+  height: 253px;
+  left: 1057px;
+  top: 200px;
+  position: fixed;
+}
+.block-1-p {
+  color: rgba(230, 94, 40, 1);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 21px;
+  font-style: normal;
+  position: fixed;
+  width: 876px;
+  height: 170px;
+  left: 852px;
+  top: 445px;
+  position: fixed;
+  letter-spacing: 0.5px;
+}
+
+.img-stockists {
+  width: 171px;
+  height: 78px;
+  left: 852px;
+  top: 715px;
+  position: fixed;
+  flex-direction: column;
+  justify-content: flex-end;
+  display: flex;
+}
+
+.img-contact {
+  position: fixed;
+  width: 136px;
+  height: 74px;
+  left: 852px;
+  top: 822px;
+  flex-direction: column;
+  justify-content: flex-end;
+  display: flex;
+}
+
+.stockists-left {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 23px;
+  letter-spacing: -0.9px;
+  position: fixed;
+  width: 266px;
+  height: 78px;
+  left: 1108px;
+  top: 760px;
+  color: rgba(230, 94, 40, 1);
+  text-decoration: none;
+  text-align: left;
+}
+
+.stockists-right {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 23px;
+  position: fixed;
+  text-align: right;
+  width: 247px;
+  height: 75px;
+  left: 1390px;
+  top: 760px;
+  color: rgba(230, 94, 40, 1);
+  text-decoration: none;
+}
+
+.email {
+  width: 252px;
+  height: 31px;
+  left: 1195px;
+  top: 855px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 25px;
+  display: flex;
+  align-items: flex-end;
+  position: fixed;
+  flex-direction: column;
+  justify-content: flex-end;
+  display: flex;
+}
+
+.instagram {
+  top: 860px;
+  width: 247px;
+  height: 75px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 21px;
+  position: fixed;
+  text-align: right;
+  left: 1390px;
+  color: rgba(230, 94, 40, 1);
+  text-decoration-line: none;
+}
+
+#banner2 {
+  color: rgba(230, 94, 40, 1);
+  top: auto;
+  bottom: 10px;
+  font-family: "Built Titling";
+  direction: left;
+  font-style: normal;
+  font-size: 65px;
+  letter-spacing: 2px;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(230, 94, 40, 1);
+  text-decoration-color: none;
+}
