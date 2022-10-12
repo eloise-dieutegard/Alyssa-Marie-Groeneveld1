@@ -1,6 +1,12 @@
 html {
   scroll-behavior: smooth;
+  
 }
+
+@-ms-viewport {
+  width: device-width;
+}
+
 body {
   background-color: black;
   color: rgba(230, 94, 40, 1);
