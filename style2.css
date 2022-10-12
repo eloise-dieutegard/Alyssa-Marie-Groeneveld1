@@ -53,12 +53,12 @@ body::-webkit-scrollbar {
   position: fixed;
   width: 285px;
   height: 121px;
-  left: 38px;
-  top: 50px;
+  left: 2%;
+  top: 5%;
 }
 
 .image-container {
-  width: 649px;
+  width: 35%;
   font-size: 1.1rem;
   font-weight: 400;
   color: rgba(0, 0, 0, 0.35);
@@ -70,8 +70,8 @@ body::-webkit-scrollbar {
 .image-container img {
   width: 100%;
   height: auto;
-  margin-top: 32px;
-  margin-bottom: 59px;
+  margin-top: 1%;
+  margin-bottom: 10%;
 }
 /* .SSW1 {
   width: 649px;
@@ -86,13 +86,13 @@ body::-webkit-scrollbar {
   width: 679px;
   height: 966px;
   float: none;
-  top: 51px;
+  top: 9%;
 }
 
 .sidebar {
   position: fixed;
-  bottom: 114px;
-  left: 40px;
+  bottom: 11%;
+  left: 2.2%;
 }
 
 .img-collection {
@@ -105,16 +105,16 @@ body::-webkit-scrollbar {
   position: fixed;
   width: 920px;
   height: 285px;
-  left: 829px;
-  top: 60px;
+  left: 44%;
+  top: 6%;
 }
 
 .logo_animated {
   object-fit: cover;
   width: 536px;
   height: 253px;
-  left: 1057px;
-  top: 200px;
+  left: 56%;
+  top: 20%;
   position: fixed;
 }
 .block-1-p {
@@ -126,8 +126,8 @@ body::-webkit-scrollbar {
   position: fixed;
   width: 876px;
   height: 170px;
-  left: 852px;
-  top: 445px;
+  left: 44.4%;
+  top: 44.5%;
   position: fixed;
   letter-spacing: 0.5px;
 }
@@ -135,8 +135,8 @@ body::-webkit-scrollbar {
 .img-stockists {
   width: 171px;
   height: 78px;
-  left: 852px;
-  top: 715px;
+  left: 44.4%;
+  top: 68%;
   position: fixed;
   flex-direction: column;
   justify-content: flex-end;
@@ -147,8 +147,8 @@ body::-webkit-scrollbar {
   position: fixed;
   width: 136px;
   height: 74px;
-  left: 852px;
-  top: 822px;
+  left: 44.4%;
+  top: 79%;
   flex-direction: column;
   justify-content: flex-end;
   display: flex;
@@ -161,8 +161,8 @@ body::-webkit-scrollbar {
   position: fixed;
   width: 266px;
   height: 78px;
-  left: 1108px;
-  top: 760px;
+  left: 57.6%;
+  top: 72%;
   color: rgba(230, 94, 40, 1);
   text-decoration: none;
   text-align: left;
@@ -175,8 +175,8 @@ body::-webkit-scrollbar {
   text-align: right;
   width: 247px;
   height: 75px;
-  left: 1390px;
-  top: 760px;
+  left: 74.6%;
+  top: 72%;
   color: rgba(230, 94, 40, 1);
   text-decoration: none;
 }
@@ -184,9 +184,8 @@ body::-webkit-scrollbar {
 .email {
   width: 252px;
   height: 31px;
-  left: 1195px;
-  top: 855px;
-
+  left: 62%;
+  top: 81%;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 21px;
@@ -200,14 +199,14 @@ body::-webkit-scrollbar {
 }
 
 .instagram {
-  top: 860px;
+  top: 81%;
   width: 247px;
   height: 75px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 21px;
   position: fixed;
   text-align: right;
-  left: 1390px;
+  left: 74.6%;
   color: rgba(230, 94, 40, 1);
   text-decoration-line: none;
 }
@@ -215,7 +214,7 @@ body::-webkit-scrollbar {
 #banner2 {
   color: rgba(230, 94, 40, 1);
   top: auto;
-  bottom: 10px;
+  bottom: 1%;
   font-family: "Built Titling";
   direction: left;
   font-style: normal;
