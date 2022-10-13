@@ -100,7 +100,13 @@ body::-webkit-scrollbar {
   bottom: 11%;
   left: 2.2%;
 }
-
+.img-aw23 {
+  left : 2% ;
+  height: 43px;
+}
+.img-2324 {left : 2% ;
+  height: 43px;}
+  
 .img-collection {
   height: 43px;
   margin-bottom: 5px;
