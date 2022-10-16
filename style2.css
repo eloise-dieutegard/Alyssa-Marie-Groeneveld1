@@ -6,6 +6,10 @@ html {
 @-ms-viewport {
   width: device-width;
 }
+@font-face {
+  font-family: "Built Titling";
+  src: url("font/Built_Titling.eot");
+}
 
 body {
   background-color: black;
