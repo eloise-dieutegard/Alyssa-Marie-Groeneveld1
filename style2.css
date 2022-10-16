@@ -96,7 +96,7 @@ body::-webkit-scrollbar {
 }
 
 .sidebar {
-  
+  position: fixed;
   bottom: 11%;
   left: 2.2%;
 }
