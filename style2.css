@@ -120,6 +120,7 @@ body::-webkit-scrollbar {
 .img-collection {
   height: 43px;
   margin-bottom: 5px;
+  bottom: 11%;
 }
 
 .logo_name {
