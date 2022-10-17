@@ -107,16 +107,16 @@ body::-webkit-scrollbar {
 
 .img-aw23 {
   position: fixed;
-  left: 2%;
+  left: 1.9% ;
   height: 26px;
-  bottom: 14%;
+  bottom: 11%;
 }
 
 .img-2324 {
   position: fixed;
-  left: 1.9% ;
+   left: 2%;
   height: 26px;
-  bottom: 11%;
+  bottom: 14%;
 }
   
 .img-collection {
