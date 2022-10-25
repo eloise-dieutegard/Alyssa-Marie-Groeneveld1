@@ -23,10 +23,9 @@ p {
 .logo_animated {
   object-fit: cover;
   position: fixed;
-  width: 248px;
-  height: 117px;
-  left: 80%;
-  top: 80%;
+  width: 330px;
+  left: 75%;
+  top: 75%;
 }
 
 #background2 {
