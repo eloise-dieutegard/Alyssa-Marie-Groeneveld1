@@ -1,14 +1,5 @@
 html {
   scroll-behavior: smooth;
-  
-}
-
-@-ms-viewport {
-  width: device-width;
-}
-@font-face {
-  font-family: "Built Titling";
-  src: url("font/Built_Titling.eot");
 }
 
 body {
@@ -19,6 +10,18 @@ body {
 }
 body::-webkit-scrollbar {
   display: none;
+}
+
+@font-face {
+  font-family: "Built Titling Rg";
+  src: url("BuiltTitlingRg-Regular.eot");
+  src: local("BuiltTitlingRg-Regular"),
+    url("BuiltTitlingRg-Regular.eot?#iefix") format("embedded-opentype"),
+    url("BuiltTitlingRg-Regular.woff2") format("woff2"),
+    url("BuiltTitlingRg-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 .marqueee {
@@ -45,6 +48,126 @@ body::-webkit-scrollbar {
   }
 }
 
+.container_one {
+  position: fixed;
+  width: 50%;
+  left: 44.4%;
+  top: 6%;
+  bottom: 6%;
+  bottom: 35%;
+}
+
+.container_logo img {
+  bottom: 2%;
+}
+
+.logo_name {
+  object-fit: cover;
+  position: absolute;
+  width: 100%;
+  top: 0%;
+}
+
+.logo_animated {
+  object-fit: cover;
+  position: absolute;
+  height: 240px;
+  left: 25%;
+  top: 20%;
+}
+.block-1-p {
+  color: rgba(230, 94, 40, 1);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 22px;
+  font-style: normal;
+  letter-spacing: 0.5px;
+  position: absolute;
+  bottom: 0%;
+  width: 95%;
+}
+
+.container_bottom {
+  position: fixed;
+  bottom: 11%;
+  width: 50%;
+  left: 44.4%;
+  height: 30%;
+  top: 69%;
+}
+
+.container_stock {
+  bottom: 28%;
+  width: 100%;
+  left: 44.4%;
+}
+
+.img-stockists {
+  height: 78px;
+  left: 0%;
+  bottom: 30%;
+}
+
+.stockists-left {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 23px;
+  letter-spacing: -0.9px;
+  position: absolute;
+  left: 30%;
+  color: rgba(230, 94, 40, 1);
+  text-decoration: none;
+  text-align: left;
+  top: 10%;
+}
+
+.stockists-right {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 23px;
+  position: absolute;
+  text-align: right;
+  left: 70%;
+  color: rgba(230, 94, 40, 1);
+  text-decoration: none;
+  top: 10%;
+}
+
+.container_contact {
+  width: 100%;
+  position: absolute;
+  height: 74px;
+  left: 0%;
+  bottom: 40%;
+}
+
+.img-contact {
+  position: absolute;
+  height: 74px;
+  left: 0%;
+  bottom: 3%;
+}
+
+.email {
+  left: 56%;
+  bottom: 7%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 25px;
+  position: fixed;
+  bottom: 14%;
+}
+
+.instagram {
+  bottom: 14%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 21px;
+  position: fixed;
+  text-align: right;
+  left: 80%;
+  color: rgba(230, 94, 40, 1);
+  text-decoration-line: none;
+}
+
 #banner1 {
   color: rgba(230, 94, 40, 1);
   font-family: "Built Titling";
@@ -64,18 +187,12 @@ body::-webkit-scrollbar {
   width: 285px;
   height: 121px;
   left: 2%;
-  top: 5%;
+  top: 6%;
 }
 
 .image-container {
   width: 35%;
-  font-size: 1.1rem;
-  font-weight: 400;
-  color: rgba(0, 0, 0, 0.35);
-  font-family: "Neue Haas Grotesk", Icons;
-  font-style: normal;
-  margin-left: 90px;
-  top: 25px;
+  margin-left: 5%;
 }
 .image-container img {
   width: 100%;
@@ -107,139 +224,27 @@ body::-webkit-scrollbar {
 
 .img-aw23 {
   position: fixed;
-  left: 1.9% ;
+  left: 1.9%;
   height: 26px;
   bottom: 11%;
 }
 
 .img-2324 {
   position: fixed;
-   left: 2.2%;
+  left: 2.2%;
   height: 26px;
   bottom: 14%;
 }
-  
+
 .img-collection {
   height: 43px;
   margin-bottom: 5px;
-  bottom: 11%;
-}
-
-.logo_name {
-  object-fit: cover;
-  position: fixed;
-  width: 920px;
-  height: 285px;
-  left: 44%;
-  top: 6%;
-}
-
-.logo_animated {
-  object-fit: cover;
-  width: 536px;
-  height: 253px;
-  left: 56%;
-  top: 20%;
-  position: fixed;
-}
-.block-1-p {
-  color: rgba(230, 94, 40, 1);
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 300;
-  font-size: 21px;
-  font-style: normal;
-  position: fixed;
-  width: 876px;
-  height: 170px;
-  left: 44.4%;
-  top: 44.5%;
-  position: fixed;
-  letter-spacing: 0.5px;
-}
-
-.img-stockists {
-  width: 171px;
-  height: 78px;
-  left: 44.4%;
-  top: 69%;
-  position: fixed;
-  flex-direction: column;
-  justify-content: flex-end;
-  display: flex;
-}
-
-.img-contact {
-  position: fixed;
-  width: 136px;
-  height: 74px;
-  left: 44.4%;
-  top: 79%;
-  flex-direction: column;
-  justify-content: flex-end;
-  display: flex;
-}
-
-.stockists-left {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 23px;
-  letter-spacing: -0.9px;
-  position: fixed;
-  width: 266px;
-  height: 78px;
-  left: 57.6%;
-  top: 72%;
-  color: rgba(230, 94, 40, 1);
-  text-decoration: none;
-  text-align: left;
-}
-
-.stockists-right {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 23px;
-  position: fixed;
-  text-align: right;
-  width: 247px;
-  height: 75px;
-  left: 74.6%;
-  top: 72%;
-  color: rgba(230, 94, 40, 1);
-  text-decoration: none;
-}
-
-.email {
-  width: 252px;
-  height: 31px;
-  left: 62%;
-  top: 81%;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 400;
-  font-size: 21px;
-  line-height: 25px;
-  display: flex;
-  align-items: flex-end;
-  position: fixed;
-  flex-direction: column;
-  justify-content: flex-end;
-  display: flex;
-}
-
-.instagram {
-  top: 81%;
-  width: 247px;
-  height: 75px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 21px;
-  position: fixed;
-  text-align: right;
-  left: 74.6%;
-  color: rgba(230, 94, 40, 1);
-  text-decoration-line: none;
 }
 
 #banner2 {
   color: rgba(230, 94, 40, 1);
   top: auto;
-  bottom: 1%;
+  bottom: 0%;
   font-family: "Built Titling";
   direction: left;
   font-style: normal;
@@ -253,4 +258,31 @@ a {
   text-decoration: none;
   color: rgba(230, 94, 40, 1);
   text-decoration-color: none;
+}
+
+.mobile .page,
+[data-css-preset].mobile .container_main {
+  position: relative;
+  min-height: 10px;
+  max-width: 100%;
+  width: 100%;
+  background-color: transparent /*!page_bgcolor*/;
+}
+
+[data-css-preset] .container_main {
+  margin-left: 0 /*!content_left*/;
+  margin-right: auto /*!content_left*/;
+  text-align: left /*!text_left*/;
+  padding-top: 1rem /*!main_margin*/;
+  padding-bottom: 1rem /*!main_margin*/;
+  padding-left: 1rem /*!main_margin*/;
+  padding-right: 1rem /*!main_margin*/;
+}
+
+[data-css-preset] body {
+  background-color: rgb(0, 0, 0) /*!body_bgcolor*/;
+}
+
+[data-css-preset] .container_one {
+  width: 100% /*!content_left*/;
 }
