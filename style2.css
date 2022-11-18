@@ -352,6 +352,7 @@ display: none;
 
 }
 
+  .sidebar { display: none; }
 
 .container_contact {
   position: relative;
