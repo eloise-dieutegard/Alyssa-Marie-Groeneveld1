@@ -28,7 +28,7 @@ body::-webkit-scrollbar {
   position: fixed;
   left: 0;
   top: 0;
-  font-size: 60px;
+  font-size: 10px;
   white-space: nowrap;
   will-change: transform;
   animation: movementMarquee linear 16s infinite;
@@ -48,17 +48,33 @@ body::-webkit-scrollbar {
   }
 }
 
-.container_one {
+.container_main {
   position: fixed;
+  float: left;
   width: 50%;
   left: 44.4%;
   top: 6%;
-  bottom: 6%;
+  bottom: 10%;
+  order: 1;
+}
+.container_one {
+  position: fixed;
+
+  float: left;
+  width: 50%;
+  left: 44.4%;
+  top: 6%;
   bottom: 35%;
 }
 
-.container_logo img {
+.container_logo {
+  position: relative;
+}
+.bio {
   bottom: 2%;
+  position: absolute;
+  left: 0;
+  width: 100%;
 }
 
 .logo_name {
@@ -71,15 +87,18 @@ body::-webkit-scrollbar {
 .logo_animated {
   object-fit: cover;
   position: absolute;
-  height: 240px;
-  left: 25%;
+  width: 55%;
+  max-width: 500px;
+  left: 50%;
   top: 20%;
+  transform: translate(-50%, 50%);
+  z-index: 1;
 }
 .block-1-p {
   color: rgba(230, 94, 40, 1);
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 300;
-  font-size: 22px;
+  font-size: 18px;
   font-style: normal;
   letter-spacing: 0.5px;
   position: absolute;
@@ -89,7 +108,6 @@ body::-webkit-scrollbar {
 
 .container_bottom {
   position: fixed;
-  bottom: 11%;
   width: 50%;
   left: 44.4%;
   height: 30%;
@@ -103,14 +121,14 @@ body::-webkit-scrollbar {
 }
 
 .img-stockists {
-  height: 78px;
+  height: 60px;
   left: 0%;
   bottom: 30%;
 }
 
 .stockists-left {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 23px;
+  font-size: 18px;
   letter-spacing: -0.9px;
   position: absolute;
   left: 30%;
@@ -122,10 +140,10 @@ body::-webkit-scrollbar {
 
 .stockists-right {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 23px;
+  font-size: 18px;
   position: absolute;
   text-align: right;
-  left: 70%;
+  left: 67%;
   color: rgba(230, 94, 40, 1);
   text-decoration: none;
   top: 10%;
@@ -141,7 +159,7 @@ body::-webkit-scrollbar {
 
 .img-contact {
   position: absolute;
-  height: 74px;
+  height: 60px;
   left: 0%;
   bottom: 3%;
 }
@@ -151,7 +169,7 @@ body::-webkit-scrollbar {
   bottom: 7%;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
-  font-size: 21px;
+  font-size: 18px;
   line-height: 25px;
   position: fixed;
   bottom: 14%;
@@ -160,7 +178,7 @@ body::-webkit-scrollbar {
 .instagram {
   bottom: 14%;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 21px;
+  font-size: 18px;
   position: fixed;
   text-align: right;
   left: 80%;
@@ -173,7 +191,7 @@ body::-webkit-scrollbar {
   font-family: "Built Titling";
   direction: left;
   font-style: normal;
-  font-size: 65px;
+  font-size: 50px;
   letter-spacing: 2px;
   white-space: nowrap;
   pointer-events: none;
@@ -184,13 +202,13 @@ body::-webkit-scrollbar {
   visibility: show;
   object-fit: cover;
   position: fixed;
-  width: 285px;
-  height: 121px;
+  height: 110px;
   left: 2%;
   top: 6%;
 }
 
 .image-container {
+  float: left;
   width: 35%;
   margin-left: 5%;
 }
@@ -199,6 +217,8 @@ body::-webkit-scrollbar {
   height: auto;
   margin-top: 1%;
   margin-bottom: 10%;
+  display: flex;
+  order: 2;
 }
 /* .SSW1 {
   width: 649px;
@@ -220,24 +240,25 @@ body::-webkit-scrollbar {
   position: fixed;
   bottom: 17%;
   left: 2.2%;
+  display: flex;
 }
 
 .img-aw23 {
   position: fixed;
   left: 1.9%;
-  height: 26px;
+  height: 24px;
   bottom: 11%;
 }
 
 .img-2324 {
   position: fixed;
   left: 2.2%;
-  height: 26px;
+  height: 24px;
   bottom: 14%;
 }
 
 .img-collection {
-  height: 43px;
+  height: 38px;
   margin-bottom: 5px;
 }
 
@@ -248,7 +269,7 @@ body::-webkit-scrollbar {
   font-family: "Built Titling";
   direction: left;
   font-style: normal;
-  font-size: 65px;
+  font-size: 50px;
   letter-spacing: 2px;
   white-space: nowrap;
   pointer-events: none;
@@ -259,30 +280,178 @@ a {
   color: rgba(230, 94, 40, 1);
   text-decoration-color: none;
 }
+@media (min-width: 575.98px) {
+  .hide-desktop {
+    display: none !important;
+  }
+}
 
-.mobile .page,
-[data-css-preset].mobile .container_main {
+/* mobile */
+@media (max-width: 575.98px) {
+  .hide-mobile {
+    display: none !important;
+  }
+
+  .container_main {
+    order: 1;
+    display: flex;
+    width: 90%;
+    position: relative;
+    left: 3%;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+  }
+
+  .container_one {
+    order: 1;
+    display: flex;
+    width: 90%;
+    position: relative;
+    left: 3%;
+    justify-content: center;
+    margin-top: 55%;
+  }
+
+  .container_logo {
+    position: relative;
+  }
+
+  .block-1-p {
+    position: relative;
+    bottom: auto;
+    font-size: 12px;
+    font-style: normal;
+    letter-spacing: 0.5px;
+    top: auto;
+    width: 90%;
+
+  }
+
+  .stockists-left { 
+    margin-left: 8%;
+    font-size: 11px;
+    
+  }
+
+  .stockists-right {
+    font-size:11px ;
+    margin-right: 0%;
+  }
+
+.email {
+    left: 45%;
+    font-size: 11px;
+    line-height: 25px;
+    position: relative;
+    bottom: 35%;
+}
+
+.instagram {
+display: none;
+
+}
+
+
+.container_contact {
   position: relative;
-  min-height: 10px;
-  max-width: 100%;
+  top: auto;
+    bottom: auto;
+    left: auto;
+    width: 80%;
+}
+
+  .container_bottom {
+    position: relative;
+    top: auto;
+    bottom: auto;
+    left: auto;
+    width: 80%;
+    order: 2;
+    margin-top: 8%;
+  }
+
+  .img-contact {
+    position: relative;
+    left: auto;
+    bottom: auto;
+    height: 50%;
+    margin-top: 5%;
+  }
+
+  .button_shop {
+    margin-bottom: 3%;
+    position: fixed;
+    left: 8%;
+    height: 10%;
+    margin-top: 140%;
+  }
+  .image-container {
+    width: 90%;
+    order: 2;
+    position: relative;
+    justify-content: center;
+ 
+  }
+
+
+  .img-stockists {
+
+    height: 40px;
+    left: 0%;
+    bottom: 30%;
+  }
+  .container_logo {
+    position: fixed;
+    top: 8%;
+    width: 90%;
+    display: flex;
+    z-index: 5;
+  }
+}
+
+.logo_name {
+  object-fit: cover;
+  position: absolute;
   width: 100%;
-  background-color: transparent /*!page_bgcolor*/;
+  top: 0%;
+  align-items: center;
 }
 
-[data-css-preset] .container_main {
-  margin-left: 0 /*!content_left*/;
-  margin-right: auto /*!content_left*/;
-  text-align: left /*!text_left*/;
-  padding-top: 1rem /*!main_margin*/;
-  padding-bottom: 1rem /*!main_margin*/;
-  padding-left: 1rem /*!main_margin*/;
-  padding-right: 1rem /*!main_margin*/;
+.logo_animated {
+  object-fit: cover;
+  position: absolute;
+  align-items: center;
+  /* left: 50%;
+  top: 20%;
+  transform: translate(-50, 0); */
 }
 
-[data-css-preset] body {
-  background-color: rgb(0, 0, 0) /*!body_bgcolor*/;
+
+
+.banner1 {
+  color: rgba(230, 94, 40, 1);
+  font-family: "Built Titling";
+  direction: left;
+  font-style: normal;
+  font-size: 10px;
+  letter-spacing: 2px;
+  white-space: nowrap;
+  pointer-events: none;
 }
 
-[data-css-preset] .container_one {
-  width: 100% /*!content_left*/;
+@font-face {
+  font-family: "Built Titling Rg";
+  src: url("BuiltTitlingRg-Regular.eot");
+  src: local("BuiltTitlingRg-Regular"),
+    url("BuiltTitlingRg-Regular.eot?#iefix") format("embedded-opentype"),
+    url("BuiltTitlingRg-Regular.woff2") format("woff2"),
+    url("BuiltTitlingRg-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* CSS */
 }
