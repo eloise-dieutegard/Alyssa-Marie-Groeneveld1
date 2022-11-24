@@ -439,18 +439,8 @@ display: none;
   pointer-events: none;
 }
 
-@font-face {
-  font-family: "Built Titling Rg";
-  src: url("BuiltTitlingRg-Regular.eot");
-  src: local("BuiltTitlingRg-Regular"),
-    url("BuiltTitlingRg-Regular.eot?#iefix") format("embedded-opentype"),
-    url("BuiltTitlingRg-Regular.woff2") format("woff2"),
-    url("BuiltTitlingRg-Regular.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-}
+
+
 @media (min-width: 768px) and (max-width: 1024px) {
   /* CSS */
 }
