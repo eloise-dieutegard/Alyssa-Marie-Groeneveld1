@@ -49,3 +49,25 @@ p {
 }
 
 
+@media (max-width: 575.98px) {
+  .hide-mobile {
+    display: none !important;
+  
+
+.block-1-p {
+    position: relative;
+    bottom: auto;
+    font-size: 12px;
+    font-style: normal;
+    letter-spacing: 0.5px;
+    top: auto;
+    width: 90%;
+}
+  .container_logo {
+    position: relative;
+  }
+  .logo_animated {
+  object-fit: cover;
+  position: absolute;
+    align-items: center; }
+  }
