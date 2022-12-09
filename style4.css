@@ -79,10 +79,10 @@ margin-top: 20%;
 }
  
  
-  .logo_animated {
-  object-fit: cover;
-  position: fixed;
+.logo_animated {
+    object-fit: cover;
+    position: inherit;
     align-items: center;
-  margin-left: 20%;}
-  }
+    margin-left: 7%;
+}
 
