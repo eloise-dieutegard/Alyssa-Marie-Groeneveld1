@@ -77,14 +77,12 @@ margin-top: 20%;
   margin-left: 5%;
     width: 90%;
 }
-  .container_logo {
-    position: fixed;
-  }
-  
+ 
+ 
   .logo_animated {
   object-fit: cover;
   position: fixed;
     align-items: center;
-  margin-left: 50%;}
+  margin-left: 20%;}
   }
 
