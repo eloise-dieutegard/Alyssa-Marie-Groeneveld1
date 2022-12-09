@@ -48,6 +48,11 @@ p {
   height: 100%;
 }
 
+@media (min-width: 575.98px) {
+  .hide-desktop {
+    display: none !important;
+  }
+}
 
 @media (max-width: 575.98px) {
   .hide-mobile {
@@ -55,19 +60,21 @@ p {
   }
 p {
     display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    font-size: 9px;
+  letter-spacing: 0.5px;
+  width: 90%;
+   margin-top: 20%;
+  margin-left: 5%;
 }
   
 .bio {
-    position: relative;
+  
     bottom: auto;
-    font-size: 12px;
+    font-size: 9px;
     font-style: normal;
     letter-spacing: 0.5px;
-    top: auto;
+margin-top: 20%;
+  margin-left: 5%;
     width: 90%;
 }
   .container_logo {
