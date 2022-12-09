@@ -90,8 +90,7 @@ margin-top: 20%;
 #background2 {
   height: 100vh;
   width: 100vw;
-  object-fit: cover;
-  position: fixed;
+ 
   left: 0;
   right: 0;
   top: 0;
