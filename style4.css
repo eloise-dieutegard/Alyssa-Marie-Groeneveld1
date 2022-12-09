@@ -61,11 +61,12 @@ p {
 p {
     display: block;
     font-size: 11px;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 0.5px;
   width: 90%;
    margin-top: 20%;
   margin-left: 5%;
+  color: rgb(0, 0, 0);
 }
   
 .bio {
@@ -73,11 +74,12 @@ p {
     bottom: auto;
     font-size: 11px;
     font-style: normal;
-  font-weight: 300;
+  font-weight: 400;
     letter-spacing: 0.5px;
 margin-top: 20%;
   margin-left: 5%;
     width: 90%;
+  color: rgb(0, 0, 0);
 }
  
  
