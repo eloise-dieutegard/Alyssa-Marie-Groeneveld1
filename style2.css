@@ -241,6 +241,13 @@ body::-webkit-scrollbar {
   display: flex;
 }
 
+.img-N2324 {
+  position: fixed;
+  left: 1.9%;
+  height: 24px;
+  bottom: 14%;
+}
+
 .img-aw23 {
   position: fixed;
   left: 1.9%;
@@ -252,7 +259,7 @@ body::-webkit-scrollbar {
   position: fixed;
   left: 2.2%;
   height: 24px;
-  bottom: 14%;
+  bottom: 8%;
 }
 
 .img-collection {
