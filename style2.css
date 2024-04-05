@@ -236,7 +236,7 @@ body::-webkit-scrollbar {
 
 .sidebar {
   position: fixed;
-  bottom: 17%;
+  bottom: 22%;
   left: 2.2%;
   display: flex;
 }
@@ -245,7 +245,7 @@ body::-webkit-scrollbar {
 .image-AW24 {
   position: fixed;
   left: 1.9%;
-  height: 23px;
+  height: 19px;
   bottom: 14%;
 }
 .image-2024 {
