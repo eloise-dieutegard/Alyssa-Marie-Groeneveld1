@@ -241,6 +241,13 @@ body::-webkit-scrollbar {
   display: flex;
 }
 
+
+.image-AW24 {
+  position: fixed;
+  left: 1.9%;
+  height: 23px;
+  bottom: 14%;
+}
 .image-2024 {
   position: fixed;
   left: 1.9%;
