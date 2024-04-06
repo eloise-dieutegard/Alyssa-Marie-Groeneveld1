@@ -236,8 +236,8 @@ body::-webkit-scrollbar {
 
 .sidebar {
   position: fixed;
-  bottom: 22%;
-  left: 2.2%;
+  bottom: 31%;
+  left: 2%;
   display: flex;
 }
 
@@ -246,35 +246,36 @@ body::-webkit-scrollbar {
   position: fixed;
   left: 1.9%;
   height: 19px;
-  bottom: 19%;
+  bottom: 25%;
 }
 .image-2024 {
   position: fixed;
   left: 1.9%;
   height: 23px;
-  bottom: 16%;
+  bottom: 21%;
 }
 
 .img-N2324 {
   position: fixed;
   left: 1.9%;
   height: 23px;
-  bottom: 14%;
+  bottom: 21%;
+}
+
+.img-2324 {
+  position: fixed;
+  left: 2%;
+  height: 23px;
+  bottom: 17%;
 }
 
 .img-aw23 {
   position: fixed;
   left: 1.9%;
   height: 23px;
-  bottom: 8%;
+  bottom: 13%;
 }
 
-.img-2324 {
-  position: fixed;
-  left: 2.2%;
-  height: 23px;
-  bottom: 11%;
-}
 
 .img-collection {
   height: 38px;
