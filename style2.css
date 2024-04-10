@@ -245,12 +245,12 @@ body::-webkit-scrollbar {
   position: fixed;
   left: 1.9%;
   height: 23px;
-  bottom: 25%;
+  bottom: 29%;
 }
-.image-2024 {
+.image-SS2024 {
   position: fixed;
   left: 1.9%;
-  height: 23px;
+  height: 25px;
   bottom: 21%;
 }
 
@@ -278,7 +278,7 @@ body::-webkit-scrollbar {
 
 .img-collection {
   height: 38px;
-  margin-bottom: 5px;
+  margin-bottom: 26px;
 }
 
 #banner2 {
