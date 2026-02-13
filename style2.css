@@ -241,44 +241,55 @@ body::-webkit-scrollbar {
 }
 
 
+.image-WW2526 { position: fixed;
+  left: 1.9%;
+  height: 20px;
+  bottom: 33%;
+}
+
+.image-SS25 { position: fixed;
+  left: 1.9%;
+  height: 20px;
+  bottom: 29%;
+}
 .image-AW24 {
   position: fixed;
   left: 1.9%;
   height: 20px;
-  bottom: 29%;
+  bottom: 25%;
 }
 .image-SS2024 {
   position: fixed;
   left: 1.9%;
   height: 20px;
-  bottom: 25%;
+  bottom: 23%;
 }
 
 .img-N2324 {
   position: fixed;
   left: 1.9%;
   height: 20px;
-  bottom: 21%;
+  bottom: 19%;
 }
 
 .img-2324 {
   position: fixed;
   left: 2%;
   height: 20px;
-  bottom: 17%;
+  bottom: 15%;
 }
 
 .img-aw23 {
   position: fixed;
   left: 1.9%;
   height: 20px;
-  bottom: 13%;
+  bottom: 11%;
 }
 
 
 .img-collection {
   height: 38px;
-  margin-bottom: 26px;
+  margin-bottom: 30px;
 }
 
 #banner2 {
