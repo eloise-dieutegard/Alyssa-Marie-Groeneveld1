@@ -133,7 +133,7 @@ body::-webkit-scrollbar {
   color: rgba(230, 94, 40, 1);
   text-decoration: none;
   text-align: left;
-  top: 5%;
+  top: 3%;
 }
 
 .stockists-right {
@@ -144,7 +144,7 @@ body::-webkit-scrollbar {
   left: 67%;
   color: rgba(230, 94, 40, 1);
   text-decoration: none;
-  top: 5%;
+  top: 3%;
 }
 
 .container_contact {
@@ -244,39 +244,39 @@ body::-webkit-scrollbar {
 .image-AW2526 { position: fixed;
   left: 1.9%;
   height: 18px;
-  bottom: 34%;
+  bottom: 28%;
 }
 
 .image-SS25 { position: fixed;
   left: 1.9%;
   height: 18px;
-  bottom: 30%;
+  bottom: 25%;
 }
 .image-AW24 {
   position: fixed;
   left: 1.9%;
   height: 18px;
-  bottom: 26%;
+  bottom: 22%;
 }
 .image-SS2024 {
   position: fixed;
   left: 1.9%;
   height: 18px;
-  bottom: 22%;
+  bottom: 19%;
 }
 
 .img-N2324 {
   position: fixed;
   left: 1.9%;
   height: 18px;
-  bottom: 18%;
+  bottom: 16%;
 }
 
 .img-2324 {
   position: fixed;
   left: 2%;
   height: 18px;
-  bottom: 14%;
+  bottom: 13%;
 }
 
 .img-aw23 {
